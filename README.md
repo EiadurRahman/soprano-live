@@ -63,6 +63,12 @@ To get the latest features, you can install from source instead.
 ```bash
 git clone https://github.com/ekwek1/soprano.git
 cd soprano
+
+# create a venv before, to eliminate package conflicts
+
+python3 -m venv sopranoVNV
+source sopranoVNV/bin/activate
+
 pip install -e .[lmdeploy]
 ```
 
@@ -71,6 +77,12 @@ pip install -e .[lmdeploy]
 ```bash
 git clone https://github.com/ekwek1/soprano.git
 cd soprano
+
+# create a venv before, to eliminate package conflicts
+
+python3 -m venv sopranoVNV
+source sopranoVNV/bin/activate
+
 pip install -e .
 ```
 
